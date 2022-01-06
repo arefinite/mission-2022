@@ -43,7 +43,7 @@
 
 .vision {
     width: 32%;
-    background-color: #e5e5e5;
+    background-color: #04cefc38;
     border: 10px solid;
     border-image-slice: 1;
     border-width: 3px;
@@ -116,4 +116,74 @@
         to bottom, 
         red, 
         rgba(0, 0, 0, 0)) 1 100%;
+}
+/* Skills Starts*/
+.skills {
+    display: flex;
+}
+.skills img{
+    width: 90%;
+    height: 250px;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    border-radius: 5px;
+}
+.skills-image{
+    width: 35%;
+}
+.skills-text{
+    
+    width: 65%;
+    border-width: 3px;
+    border-style: solid;
+    padding-left: 10px;
+    border-image: linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)) 1 100%;
+}
+.skill-set {
+    width: 90%; 
+    background-color: #ddd; 
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+.skills-item {
+    text-align: right; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    color: white; 
+}
+.html-css {
+    width: 90%; 
+    background: rgb(113,54,171);
+    background: linear-gradient(90deg, rgba(113,54,171,1) 35%, rgba(0,212,255,1) 100%);    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+} 
+.react {
+    width: 80%; 
+    background: rgb(113,54,171);
+    background: linear-gradient(90deg, rgba(113,54,171,1) 35%, rgba(0,212,255,1) 100%);    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+} 
+.nodejs {
+    width: 65%; 
+    background: rgb(113,54,171);
+    background: linear-gradient(90deg, rgba(113,54,171,1) 35%, rgba(0,212,255,1) 100%);    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+} 
+
+/*Footer Starts */
+.footer{
+    text-align: center;
+    background: rgb(113,54,171);
+    background: linear-gradient(90deg, rgba(113,54,171,1) 35%, rgba(0,212,255,1) 100%);
+    color: #fff;
+    line-height: 1em;
 }

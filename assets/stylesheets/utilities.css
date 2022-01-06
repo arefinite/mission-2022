@@ -6,6 +6,7 @@
 .pt-50 {padding-top: 50px;}
 .mt-50 { margin-top: 50px;}
 .center-text { text-align: center;}
+a { text-decoration: none; color: #23c77c}
 .btn {
     background: rgb(113,54,171);
     background: linear-gradient(90deg, rgba(113,54,171,1) 35%, rgba(0,212,255,1) 100%);    
@@ -14,3 +15,9 @@
     border: 0px;
 
 }
+hr.style {
+    margin-top: 40px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient( to right, rgb(135 20 20 / 0%), rgb(150 26 165 / 75%), rgb(0 0 0 / 0%) );
+    }
