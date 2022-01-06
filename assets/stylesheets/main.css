@@ -75,7 +75,7 @@
 /* Develop Starts*/
 .develop {
     display: flex;
-    background-image: url(/assets/images/shape-1.png);
+    background-image: url("/assets/images/shape-1.png");
     background-repeat: no-repeat;
     background-size: 10%;
     background-position: left;
@@ -102,7 +102,7 @@
 /* Community Starts*/
 .community {
     display: flex;
-    background-image: url(/assets/images/shape-1.png);
+    background-image: url("/assets/images/shape-1.png");
     background-repeat: no-repeat;
     background-size: 10%;
     background-position: right;
