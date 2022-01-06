@@ -7,7 +7,7 @@
 }
 #top-banner-text h1{
     line-height: 1em;
-    border-left: 3px solid;
+    border-left: 4px solid;
     border-image-source : linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 27%, rgba(0,212,255,1) 100%);
     border-image-slice : 1;
     height: 70px;
@@ -15,7 +15,7 @@
     
 }
 #top-banner-image{
-    width: 50%;
+    width: 80%;
     padding-left: 100px;
     
     
@@ -75,13 +75,18 @@
 /* Develop Starts*/
 .develop {
     display: flex;
+    background-image: url(/assets/images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left;
+    
 }
 .develop img{
     width: 80%;
     height: 250px;
 }
 .develop-image{
-    width: 35%;
+    width: 35%;   
 }
 .develop-text{
     
@@ -97,14 +102,19 @@
 /* Community Starts*/
 .community {
     display: flex;
+    background-image: url(/assets/images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right;
 }
 .community img{
-    width: 100%;
+    width: 100%; 
     height: 250px;
 }
 .community-image{
-    width: 35%;
+    width: 35%; 
     padding-left: 80px;
+
     
 }
 .community-text{
@@ -186,4 +196,13 @@
     background: linear-gradient(90deg, rgba(113,54,171,1) 35%, rgba(0,212,255,1) 100%);
     color: #fff;
     line-height: 1em;
+}
+.footer h3{
+    font-family: 'Lobster', cursive;
+    padding-top: 10px;
+}
+.footer p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    padding: 5px;
 }
