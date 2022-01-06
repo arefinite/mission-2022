@@ -1,0 +1,16 @@
+.container{ padding: 40px 40px 20px}
+.heading-text { color: #7136ab	;}
+.block { display: block;}
+.mt-20 {margin-top: 20px;}
+.mb-20 { margin-bottom: 20px;}
+.pt-50 {padding-top: 50px;}
+.mt-50 { margin-top: 50px;}
+.center-text { text-align: center;}
+.btn {
+    background: rgb(113,54,171);
+    background: linear-gradient(90deg, rgba(113,54,171,1) 35%, rgba(0,212,255,1) 100%);    
+    color: #fff;
+    padding: 10px 15px 10px;
+    border: 0px;
+
+}

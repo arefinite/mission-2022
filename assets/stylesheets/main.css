@@ -1,0 +1,119 @@
+/* Banner Head Starts */
+.banner{
+    display: flex;
+}
+#top-banner-text{
+    width: 50%;
+}
+#top-banner-text h1{
+    line-height: 1em;
+    border-left: 3px solid;
+    border-image-source : linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 27%, rgba(0,212,255,1) 100%);
+    border-image-slice : 1;
+    height: 70px;
+    padding-left: 7px;
+    
+}
+#top-banner-image{
+    width: 50%;
+    padding-left: 100px;
+    
+    
+}
+#top-banner-image img{
+    width: 100%;
+    height: 400px;
+    
+    
+}
+/* Mission/Vision/Goal Starts*/
+.my-mission{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.mission {
+    width: 32%;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.vision {
+    width: 32%;
+    background-color: #e5e5e5;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.goals {
+    width: 32%;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.mission img{
+    width: 100%;
+    height: 120px;
+}
+.vision img {
+    width: 100%;
+    height: 120px;
+}
+.goals img{
+    width: 100%;
+    height: 120px;
+}
+/* Develop Starts*/
+.develop {
+    display: flex;
+}
+.develop img{
+    width: 80%;
+    height: 250px;
+}
+.develop-image{
+    width: 35%;
+}
+.develop-text{
+    
+    width: 65%;
+    border-left-width: 3px;
+    border-left-style: solid;
+    padding-left: 10px;
+    border-image: linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)) 1 100%;
+}
+/* Community Starts*/
+.community {
+    display: flex;
+}
+.community img{
+    width: 100%;
+    height: 250px;
+}
+.community-image{
+    width: 35%;
+    padding-left: 80px;
+    
+}
+.community-text{
+    padding-right:10px; 
+    width: 65%;
+    border-right-width: 3px;
+    border-right-style: solid;
+    border-image: linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)) 1 100%;
+}

@@ -1,0 +1,30 @@
+.container{
+    padding: 40px 40px 20px
+}
+.banner{
+    display: flex;
+}
+#top-banner-text{
+    width: 50%;
+}
+#top-banner-text h1{
+    line-height: 1em;
+    border-left: 3px solid;
+    border-image-source : linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 27%, rgba(0,212,255,1) 100%);
+    border-image-slice : 1;
+    height: 70px;
+    padding-left: 7px;
+    
+}
+#top-banner-image{
+    width: 50%;
+    justify-self: flex-end;
+}
+#top-banner-image img{
+    width: 60%;
+    height: 310px;
+    
+}
+background: rgb(113,54,171);
+background: 
+linear-gradient(90deg, rgba(113,54,171,1) 35%, rgba(0,212,255,1) 100%);    
